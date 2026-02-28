@@ -6,7 +6,8 @@ See python_version.txt and requirements.txt
 
 
 If you need to run deep learning code that involves the bert-base-chinese model and find that loading it online is slow, it is recommended to download it locally for execution.
-At a minimum, you need to download the following three files: vocab.txt, pytorch_model.bin, and config.json. The download link is: https://huggingface.co/google-bert/bert-base-chinese/tree/main or https://hf-mirror.com/google-bert/bert-base-chinese/tree/main
+At a minimum, you need to download the following three files: vocab.txt, pytorch_model.bin, and config.json. 
+The download link is: https://huggingface.co/google-bert/bert-base-chinese/tree/main or https://hf-mirror.com/google-bert/bert-base-chinese/tree/main.
 Place these files in a folder (e.g., D:/bert-base-chinese).
 The code that uses this model is located in:
 codes/supervised_methods/DL_methods/config.py
