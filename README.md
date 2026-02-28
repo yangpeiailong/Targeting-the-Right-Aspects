@@ -15,5 +15,5 @@ In these two files, change bert-base-chinese to your local path (e.g., D:/bert-b
 
 
 
-To run the word clustering code, you need to obtain the pre-trained fastText word vectors first. The download link is: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.bin.gz
+To run the word clustering code, you need to obtain the pre-trained fastText word vectors first. The download link is: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.bin.gz.
 It is recommended to download the file locally for use. Then, replace the fasttext_model_path variable (line 22) in the code codes/unsupervised_methods/1get_attributes/2getting_word2vec_by_fasttext.py with your local file path of cc.zh.300.bin.gz.
