@@ -10,8 +10,8 @@ At a minimum, you need to download the following three files: vocab.txt, pytorch
 The download link is: https://huggingface.co/google-bert/bert-base-chinese/tree/main or https://hf-mirror.com/google-bert/bert-base-chinese/tree/main.
 Place these files in a folder (e.g., D:/bert-base-chinese).
 The codes that use this model are located in:
-codes/supervised_methods/DL_methods/config.py
-codes/unsupervised_methods/2CR_calculation/CR_calculation.py
+codes/supervised_methods/DL_methods/config.py.
+codes/unsupervised_methods/2CR_calculation/CR_calculation.py.
 In these two files, change bert-base-chinese to your local path (e.g., D:/bert-base-chinese).
 
 
@@ -28,5 +28,5 @@ Zhipu AI (GLM Series): https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys
 Alibaba Cloud Tongyi (Qwen Series): https://help.aliyun.com/zh/model-studio/get-api-key
 DeepSeek: https://platform.deepseek.com/api_keys
 The code that uses API keys are located in:
-codes/supervised_methods/LLM_methods/LLM_with_cot_5folds_for_all_prompts_with_asyncio.py
-codes/supervised_methods/LLM_methods/LLM_without_cot_5folds_for_all_prompts_with_asyncio.py
+codes/supervised_methods/LLM_methods/LLM_with_cot_5folds_for_all_prompts_with_asyncio.py.
+codes/supervised_methods/LLM_methods/LLM_without_cot_5folds_for_all_prompts_with_asyncio.py.
